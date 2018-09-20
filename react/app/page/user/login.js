@@ -72,7 +72,7 @@ class Login extends React.Component {
                 <div className="container">
 
                     <form className="form-signin" onSubmit={this.handleSubmit.bind(this)}>
-                        <h2 className="form-signin-heading">请登录</h2>
+                        <h2 className="form-signin-heading">login</h2>
                         <h3 className="panel-title">username</h3>
                         <input type="text" id="name" className="form-control" value={this.state.name}
                                onChange={this.handleChangeName}/>

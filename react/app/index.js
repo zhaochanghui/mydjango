@@ -16,9 +16,9 @@ const store = createStore(rootRedux);
 //渲染函数中的结构外部嵌套Provier并添加store
 ReactDOM.render(
     <Provider store={store}>
-        <HashRouter>
+        <BrowserRouter>
        		 <App />
-        </HashRouter>
+        </BrowserRouter>
     </Provider>,
     document.getElementById('root')
     );
